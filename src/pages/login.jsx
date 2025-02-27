@@ -93,7 +93,7 @@ export default function Login() {
 
                 <div className="mt-4 text-center">
                     <span className="text-sm text-black/40">I don’t have an account? </span>
-                    <a href="/signup" className="text-sm text-[#F97316] hover:text-[#E5620E]">
+                    <a href="/Shoping-Cart/src/pages/Signin" className="text-sm text-[#F97316] hover:text-[#E5620E]">
                         Sign up
                     </a>
                 </div>
