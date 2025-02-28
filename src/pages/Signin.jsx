@@ -28,10 +28,8 @@ export default function Signin() {
                 email: data.email,
                 password: data.password,
             });
-
             localStorage.setItem("token", response.data.jwt);
             localStorage.setItem("user", JSON.stringify(response.data.user));
-
             navigate("/products");
         } catch (error) {
             console.error("Signup error:", error.response?.data?.message || "Error");
